@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		831965ED2556E36E004B4211 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831965EC2556E36E004B4211 /* ScannerVC.swift */; };
 		8319660925588343004B4211 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8319660825588343004B4211 /* ScannerView.swift */; };
+		8319660D25589D66004B4211 /* BarcodeScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8319660C25589D66004B4211 /* BarcodeScannerViewModel.swift */; };
 		83E8201D2556D609009D833E /* BarcodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E8201C2556D609009D833E /* BarcodeScannerApp.swift */; };
 		83E8201F2556D609009D833E /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E8201E2556D609009D833E /* BarcodeScannerView.swift */; };
 		83E820212556D60D009D833E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E820202556D60D009D833E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		831965EC2556E36E004B4211 /* ScannerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 		8319660825588343004B4211 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		8319660C25589D66004B4211 /* BarcodeScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewModel.swift; sourceTree = "<group>"; };
 		83E820192556D609009D833E /* BarcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E8201C2556D609009D833E /* BarcodeScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerApp.swift; sourceTree = "<group>"; };
 		83E8201E2556D609009D833E /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				83E8201C2556D609009D833E /* BarcodeScannerApp.swift */,
 				83E8201E2556D609009D833E /* BarcodeScannerView.swift */,
+				8319660C25589D66004B4211 /* BarcodeScannerViewModel.swift */,
 				831965EC2556E36E004B4211 /* ScannerVC.swift */,
 				8319660825588343004B4211 /* ScannerView.swift */,
 				83E820202556D60D009D833E /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				831965ED2556E36E004B4211 /* ScannerVC.swift in Sources */,
 				8319660925588343004B4211 /* ScannerView.swift in Sources */,
 				83E8201F2556D609009D833E /* BarcodeScannerView.swift in Sources */,
+				8319660D25589D66004B4211 /* BarcodeScannerViewModel.swift in Sources */,
 				83E8201D2556D609009D833E /* BarcodeScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
