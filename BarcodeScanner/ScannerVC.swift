@@ -29,6 +29,7 @@ final class ScannerVC: UIViewController {
     init(scannerDelegate: ScannerVCDelegate) {
         super.init(nibName: nil, bundle: nil)
         self.scannerDelegate = scannerDelegate
+        view.backgroundColor = .black
     }
     
     required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
